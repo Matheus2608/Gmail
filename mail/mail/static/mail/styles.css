@@ -1,0 +1,45 @@
+
+textarea {
+    min-height: 400px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.emails-div, .sentemails{
+    border: 1px solid black;
+}
+
+.emails-div{
+    width: 90%;
+    display: inline-block;
+}
+
+.archive{
+    display: inline-block;
+    height: 43px;
+    position: relative;
+    top: 5px;
+    left: 10px;
+}
+.emails-div h1, .emails-div .subject, .emails-div .date{
+    color: black;
+    display: inline-block;
+}
+
+.emails-div h1{
+    font-size: 120%;
+}
+
+.emails-div .subject{
+    position: relative;
+    left: 4%;
+}
+.emails-div .date{
+    float: right;
+}
+
+#uniqueEmail p{
+    margin: 0;
+}
